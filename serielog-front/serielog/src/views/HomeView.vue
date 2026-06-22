@@ -25,6 +25,7 @@ import MostrarSeries from "../components/MostrarSeries.vue";
 import FiltroSeries from "../components/FiltroSeries.vue";
 import { ref, onMounted, computed } from "vue";
 import { useRouter } from "vue-router";
+import { deletetarSerie, mostrarSeries } from "../service/serieService";
 
 const router = useRouter();
 const series = ref([]);
@@ -34,6 +35,11 @@ const filtro = ref({
 });
 
 onMounted(async () => {
+  series.value = await mostrarSeries();
+});
+
+/*
+onMounted(async () => {
   const response = await fetch("http://localhost:3000/series");
   series.value = await response.json();
 
@@ -41,8 +47,7 @@ onMounted(async () => {
     router.push("/series/nova");
   }
 });
-
-import { deletetarSerie } from "../service/serieService";
+*/
 
 const Remover = async (id) => {
   await deletetarSerie(id);
