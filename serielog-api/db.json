@@ -1,0 +1,68 @@
+{
+  "series": [
+    {
+      "id": "1",
+      "titulo": "Breaking Bad",
+      "genero": "Crime / Drama",
+      "nota": 9.5,
+      "ano": 2008,
+      "assistida": true,
+      "descricao": "Teste"
+    },
+    {
+      "id": "2",
+      "titulo": "Succession",
+      "genero": "Drama",
+      "nota": 8.9,
+      "ano": 2018,
+      "assistida": true,
+      "descricao": "Uma família bilionária disputa o controle de um império de mídia enquanto conflitos internos e traições dominam a sucessão."
+    },
+    {
+      "id": "3",
+      "titulo": "Severance",
+      "genero": "Ficção Científica",
+      "nota": 8.7,
+      "ano": 2022,
+      "assistida": false,
+      "descricao": "Funcionários de uma empresa passam por um procedimento que separa suas memórias pessoais e profissionais, revelando segredos perturbadores."
+    },
+    {
+      "id": "4",
+      "titulo": "The Wire",
+      "genero": "Crime / Drama",
+      "nota": 9.3,
+      "ano": 2002,
+      "assistida": true,
+      "descricao": "Uma análise profunda da cidade de Baltimore, mostrando o sistema policial, o tráfico de drogas e suas conexões sociais."
+    },
+    {
+      "id": "5",
+      "titulo": "Fleabag",
+      "genero": "Comédia",
+      "nota": 8.7,
+      "ano": 2016,
+      "assistida": false,
+      "descricao": "Uma mulher espirituosa e autodestrutiva em Londres lida com perdas, relacionamentos e crises pessoais com humor ácido."
+    },
+    {
+      "titulo": "Fleabag",
+      "genero": "Comédia / Drama",
+      "nota": "7",
+      "ano": "2016",
+      "assistida": true,
+      "descricao": "Uma mulher em Londres tenta lidar com a vida adulta enquanto enfrenta luto, culpa e relacionamentos caóticos. Ela quebra a quarta parede para conversar diretamente com o público, revelando seus pensamentos mais sinceros, autodepreciativos e muitas vezes hilários.\n",
+      "id": "zIOAtRYkO38"
+    },
+    {
+      "titulo": "Stranger Things",
+      "genero": "Ficção Científica / Terror",
+      "nota": "10",
+      "ano": "2016",
+      "assistida": false,
+      "descricao": "Um grupo de crianças em uma pequena cidade dos anos 80 descobre experimentos secretos do governo e uma dimensão paralela assustadora conhecida como Mundo Invertido.",
+      "id": "HnmS8ewIYLk"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
